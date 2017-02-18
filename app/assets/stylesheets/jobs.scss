@@ -2,10 +2,15 @@
   box-sizing: border-box;
 }
 
+li {
+  padding: 5px;
+}
+
 body {
   margin: 0;
   color: #515050;
   a:link { text-decoration: none; color : #515050; border: 0px; -moz-outline-style: none;}
+  background: #f0f0f0;
 }
 
 .single {

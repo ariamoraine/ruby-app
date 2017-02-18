@@ -1,4 +1,5 @@
 header {
+  display: flex;
   background: #515050;
   padding: 10px;
   ul {
@@ -13,10 +14,4 @@ header {
   }
 }
 
-.left-nav {
-  float: left;
-}
 
-.right-nav {
-  float: right;
-}

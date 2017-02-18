@@ -28,6 +28,10 @@ class JobsController < ApplicationController
     redirect_to jobs_url
   end
 
+  def show
+    @job = Job.find(params[:id])
+  end
+
   private
 
   def job_params

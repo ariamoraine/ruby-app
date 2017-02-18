@@ -1,12 +1,36 @@
-body {
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
 
-.content {
-  margin: 10px auto;
-  width: 70%;
+body {
+  margin: 0;
+  color: #515050;
+  a:link { text-decoration: none; color : #515050; border: 0px; -moz-outline-style: none;}
+}
+
+.single {
+  a:link { text-decoration: none; color : #515050; border: 0px; -moz-outline-style: none;}
+  display: float;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .clearfix {
   clear: both;
+}
+
+.title {
+  font-size: 3.5em;
+  flex: 1 100%;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.item {
+  margin: auto;
+  font-size: 1.2em;
 }

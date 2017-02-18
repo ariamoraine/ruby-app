@@ -1,6 +1,7 @@
-<h1>RailsBridgeCorp Open Jobs</h1>
+<h1 class="title">RailsBridgeCorp Open Jobs</h1>
 <% @jobs.each do |job| %>
+<div class="single, item">
   <h3><%= link_to job.title, job_path(job)%></h3>
   <p><%= job.description %></p>
-  <h5><%= link_to "Edit Posting", edit_job_path(job)%></h5>
+</div>
 <% end %>
